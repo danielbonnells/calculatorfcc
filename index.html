@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator - FCC Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web" rel="stylesheet">
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="title">
+  <h1 id="slogan" class="animated fadeIn">A simple calculator for a simple (wo)man.</h1> 
+  <h2 id="slogan2" class="animated fadeIn">I present to you the...</h2></div>
+  <div id="row" class="row animated fadeIn zoomIn"> 
+    <p id="name">SimplCalc 5000<p>  
+    
+    <div id="display">0</div> 
+  
+<div id="buttons">
+  <button type="button" onclick="clearEntry()">CE</button>
+  <button type="button" onclick="clearAll()">AC</button>
+  <button type="button" onclick="doMath(')*(')">*</button>
+  <button type="button" onclick="doMath(')/(')">/</button>
+  <button type="button" onclick="doMath(')+(')">+</button>
+  <button type="button" onclick="doMath(')-(')">-</button> 
+  <button type="button" onclick="doMath(1)">1</button>
+  <button type="button" onclick="doMath(2)">2</button>
+  <button type="button" onclick="doMath(3)">3</button>
+  <button type="button" onclick="doMath(4)">4</button>
+  <button type="button" onclick="doMath(5)">5</button>
+  <button type="button" onclick="doMath(6)">6</button>
+  <button type="button" onclick="doMath(7)">7</button>
+  <button type="button" onclick="doMath(8)">8</button>
+  <button type="button" onclick="doMath(9)">9</button>
+  <button type="button" onclick="doMath('.')">.</button>
+  <button id="zero" type="button" onclick="doMath(0)">0</button>
+ 
+  <button id="equals" type="button" onclick="equals()">=</button>
+  
+</div>
+    
+</div>
+<p id="tag" class="animated fadeIn">This is a project from my journey through the wonderful <a href="http:freecodecamp.com">FreeCodeCamp</a> bootcamp.</p>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
